@@ -50,7 +50,6 @@ function pot(){
 }
 
 function sqRoot(){
-    let number1 = document.getElementById("number1").value
     let number2 = document.getElementById("number2").value
 
     let result = Math.sqrt(+number2)
@@ -59,7 +58,6 @@ function sqRoot(){
 }
 
 function absol(){
-    let number1 = document.getElementById("number1").value
     let number2 = document.getElementById("number2").value
 
     let result = Math.abs(+number2)
